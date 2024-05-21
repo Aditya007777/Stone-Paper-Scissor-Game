@@ -1,0 +1,42 @@
+/* Basic Styles */
+body {
+    font-family: sans-serif;
+    padding: 100px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .result {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all .03s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41; 
+  }
+  
+
+  .playerChoice,
+  .computerChoice {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
